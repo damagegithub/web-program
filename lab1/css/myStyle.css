@@ -1,0 +1,99 @@
+header.page-header {
+    background:rgb(59, 59, 59);
+    display: flex;
+    height: 200px;
+    min-width: 200px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+    margin: auto;
+}
+
+div.photo > img
+{
+    width: auto;
+	height: auto;
+	max-width: 52%;
+	max-height: 52%;
+}
+
+.photo {
+    float: left;
+    width: 30%;
+}
+
+.myself {
+    float: center;
+    width: 40%;
+}
+.links{
+    float: right;
+    width: 30%;
+}
+
+.inf {
+    background:rgb(245, 244, 223);
+    align-items: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin:0 auto;
+}
+.ability{
+    text-align: center;
+}
+
+.totem{
+    float: left;
+    width: 25%;
+}
+.aboutme{
+    float: right;
+    width: 75%;
+}
+.inf > .null{
+    float: left;
+    width: auto;
+}
+
+.inf > .main
+{
+    float: center;
+    width: 80%;
+}
+.inf > .ability{
+    float: right;
+    width: 20%;
+}
+.code {
+    font-family: Consolas,"courier new";
+    color: rgb(223, 217, 218);
+    background-color: #2a2a2a;
+    padding: 2px;
+    font-size: 105%;
+    width: 90%;
+  }
+  .saying{
+    display: inline;
+      margin:0 auto;
+  }
+
+  blockquote {
+      
+    margin:0 auto;
+    margin: 0;
+}
+
+blockquote p {
+    
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
