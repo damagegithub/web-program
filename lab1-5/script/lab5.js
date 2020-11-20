@@ -7,7 +7,7 @@ for (var i = 0; i < 2000; i++) {
 
 function findMin(arr) {
     var m = arr[0];
-    for (var i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i] < m) m = arr[i];
     }
     return m;
@@ -15,7 +15,7 @@ function findMin(arr) {
 
 function findMax(arr) {
     var m = arr[0];
-    for (var i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i] > m) m = arr[i];
     }
     return m;
@@ -45,7 +45,7 @@ function quickSort(arr) {
     var left = [];
     var right = [];
 
-    for (var i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i] < pivot) {
             left.push(arr[i]);
         } else {
@@ -62,7 +62,7 @@ var tags = document.getElementsByTagName('*');
 
 t = new Object();
 
-for(var i = 0 ;i < tags.length;i++)
+for(let i = 0 ;i < tags.length;i++)
 {
    if (typeof(t[tags[i].tagName]) != "undefined"){
        t[tags[i].tagName] = t[tags[i].tagName] +1;
