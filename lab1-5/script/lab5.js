@@ -60,16 +60,17 @@ console.log(quickSort(arrRandom));
 
 var tags = document.getElementsByTagName('*');
 
-t = new Object();
+console.log(tags)
 
+// t = new Object();
 
-for(var i = 0 ;i < tags.length;i++)
-{
-   if (typeof(t[tags[i].tagName]) != "undefined"){
-       t[tags[i].tagName] = t[tags[i].tagName] +1;
-   }
-   else {
-    t[tags[i].tagName] = 1;
-   }
-}
-console.log(t);
+// for(var i = 0 ;i < tags.length;i++)
+// {
+//    if (typeof(t[tags[i].tagName]) != "undefined"){
+//        t[tags[i].tagName] = t[tags[i].tagName] +1;
+//    }
+//    else {
+//     t[tags[i].tagName] = 1;
+//    }
+// }
+// console.log(t);
