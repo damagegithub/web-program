@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="ru">
 
 <head>
-    
     <link href="css/myStyle.css" rel="stylesheet">
+    <script defer src="./script/lab5.js"> </script>
+    <script defer src="./script/lab6.js"> </script>
+    <script defer src="./script/lab7.js"> </script>
     <!-- <link href="css/outlines.css" rel="stylesheet"> -->
     <script src="https://kit.fontawesome.com/3064a9342a.js" crossorigin="anonymous"></script>
     <meta name="author" content="Цзян Пэйхэ">
@@ -43,7 +44,7 @@
                     </li>
                     <li class="telephone">
                         <i class="fa fa-phone"></i>
-                        <a href="tel: 0123456789">0123 456 7890</a>
+                        <a id="myphone">contact me</a>
                     </li>
                     <li class="website">
                         <i class="fa fa-globe"></i>
@@ -210,8 +211,22 @@
         <div class="canada canada6"><img class="canada-img canada-img6" src="./img/canada/6.jpg"></div>
         <div class="canada canada7"><img class="canada-img canada-img7" src="./img/canada/7.jpg"></div>
     </section>  
+
+
+    <section class = "section chat">
+        <div class="talk_con">
+            <div class="talk_show" id="words">
+                <div class="atalk"><span id="asay">Bot:you can talk with me</span></div>
+            </div>
+            <div class="talk_input">
+                <input type="text" class="talk_word" id="talkwords">
+                <input type="button" value="send" class="talk_sub" id="talksub">
+            </div>
+        </div>
+    </section>
+
     </div>
-    <script src="./script/lab5.js"> </script>
+    
 </body>
 
 </html>
