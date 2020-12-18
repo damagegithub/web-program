@@ -28,6 +28,7 @@ btn.onclick = function func() {
 }
 
 function createWindow(path) {
+    //window.open(path, "displayWindow", "toolbar=no,width=1440,height=900,directories=no,status=no,scrollbars=yes,resize=no,menubar=no")
     bigImg = document.createElement("div");
     bigImg.innerHTML = `
                   <button id="btn-del">
